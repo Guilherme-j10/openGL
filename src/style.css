@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  font-family: Arial;
+  padding: 0px;
+}
+
+body {
+  background-color: #111;
+}
+
+.TargetElement {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TargetElement .ContainerTargetElement {
+  width: 800px;
+  height: 600px;
+}
+
+.TargetElement .ContainerTargetElement canvas {
+  background-color: transparent !important;
+}
